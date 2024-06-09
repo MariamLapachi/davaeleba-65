@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 10px;   
+}
+
+.container {
+    width: 383px;
+    height: 515px;
+    top: 57px;
+    left: 448px;
+    border: 2px;
+    border-radius: 4px;
+    background-color: #414141;
+    margin: auto;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 90%;
+    padding: 12px; /* Adjust padding to make space for the icon */
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    background-color: #A9A9A9;
+}
+
+input[type="button"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFD43A;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 12px;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #DEDEDE;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+    color: #FFD43A;
+}
+
+input[type="password"]::placeholder {
+    color: #FF0000;
+}
+
+.Yourbio {
+    height: 112px;
+}
+
+.Yourbio::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
